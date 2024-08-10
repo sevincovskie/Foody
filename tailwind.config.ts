@@ -21,6 +21,8 @@ const config: Config = {
       mainWhite: "#F3F4F6",
       gray: "#828282",
       mainRed:"#D63626",
+      cardText: " #4F4F4F",
+
       
     },
     
