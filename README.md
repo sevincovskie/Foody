@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+1.Components
+-Building blocks of React applications
+-Can be functional or class-based
 
-## Getting Started
+2.JSX
+-JavaScript XML syntax
+-Allows writing HTML-like code in JavaScript
 
-First, run the development server:
+3.Props
+-Properties passed to components
+-Read-only and help make components reusable
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4.State
+-Internal data storage for components
+-Can be updated and causes re-renders when changed
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5.Hooks
+-Functions that let you use state and other React features in functional components
+-Examples: useState, useEffect, useContext
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+6.Virtual DOM
+-Lightweight copy of the actual DOM
+-Used for efficient updating and rendering
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+7.Render
+-Process of displaying components on the screen
+-Called when component mounts or updates
 
-## Learn More
+8.Lifecycle methods
+-Special methods that run at different stages of a component's life
+-Examples: componentDidMount, componentDidUpdate, componentWillUnmount
 
-To learn more about Next.js, take a look at the following resources:
+9.Event handling
+-Managing user interactions like clicks, input changes
+-Uses camelCase naming convention
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+10.Conditional rendering
+-Showing different content based on conditions
+-Often uses ternary operators or logical AND (&&)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+11.Lists and keys
+-Rendering multiple similar elements
+-Keys help React identify which items have changed
 
-## Deploy on Vercel
+12.Context
+-Provides a way to pass data through the component tree without props
+-Useful for global state management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+13.Higher-Order Components (HOC)
+-Functions that take a component and return a new component with additional props or behavior
+-Used for code reuse and logic abstraction
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+14.Ref
+-Provides a way to access DOM nodes or React elements
+-Useful for managing focus, animations, or integrating with third-party libraries
+
+14.Controlled vs Uncontrolled components
+-Controlled: Component state managed by React
+-Uncontrolled: State managed by the DOM
